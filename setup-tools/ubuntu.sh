@@ -23,7 +23,7 @@ sudo apt install -y python3-pip
 
 #install python dependencies 
 export PATH="$HOME/.local/bin:$PATH" 
-python3 -m pip install -r https://raw.githubusercontent.com/signalfx/apmworkshop/master/setup-tools/requirements.txt
+python3 -m pip install -r https://raw.githubusercontent.com/jmallen1027/apmworkshop/master/setup-tools/requirements.txt
 splk-py-trace-bootstrap
 
 #enable helm to access cluster
@@ -34,4 +34,4 @@ sudo chmod 755 /etc/rancher/k3s/k3s.yaml
 sudo apt install -y lynx
 
 #clone workshop
-git clone https://github.com/signalfx/apmworkshop
+git clone https://github.com/jmallen1027/apmworkshop
